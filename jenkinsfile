@@ -3,7 +3,7 @@ agent any
 tools{ jdk 'jdk11’ }
 environment { JAVA_HOME = '/usr/lib/jvm/java-11-openjdk-amd64' }
 stages {
-stage ('First Compile Stage') {
+stage ('Firstt Compile Stage') {
 steps {
 withMaven(maven : 'apache-maven-3.6.3') {
 bat 'mvn clean compile'
